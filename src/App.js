@@ -47,8 +47,6 @@ function App() {
       </div>
       <div id="page">
         <div class="nav">
-         
-
           <div>
             <a>
               <img src={HMB} class="Hamburger" onClick={showMobileMenu}></img>
@@ -103,13 +101,10 @@ function App() {
               <img src={placeholder} class="portfolioImage"></img>
             </a>
           </div>
-          
-          
         </div>
         <div class="achorTitle">
           <h1 id="Education">Education</h1>
         </div>
-
         <div class="Education_Container">
           <div class="UniContainer">
             <div class="Degree">
@@ -130,7 +125,6 @@ function App() {
             <div>2017-2020</div>
           </div>
         </div>
-
         <div class="achorTitle">
           <h1 id="Resume">Resume</h1>
         </div>
@@ -142,7 +136,6 @@ function App() {
             </a>
           </div>
         </div>
-
         <div class="FooterHolder">
           <div class="Footer">
             <div class="clock">
