@@ -46,9 +46,7 @@ function App() {
       </div>
       <div id="page">
         <div class="nav">
-          <div>
-            <img src={prof} class="ProfilePic"></img>
-          </div>
+         
 
           <div>
             <a>
@@ -71,7 +69,7 @@ function App() {
         <div class="Badge">
           <div class="BadgeInner">
             <p>Ahmed Khan</p>
-            <p>Full Stack Developer</p>
+            <p>Ethical Hacker</p>
           </div>
           <div class="BadgeIcons">
             {" "}
@@ -93,7 +91,7 @@ function App() {
           </div>
         </div>
         <div class="achorTitle">
-          <h1 id="Portfolio">Portfolio</h1>
+          <h1 id="Portfolio">Security Experience</h1>
         </div>
         <div class="previousWorkContainer">
           <div class="box">
@@ -104,22 +102,8 @@ function App() {
               <img src={placeholder} class="portfolioImage"></img>
             </a>
           </div>
-          <div class="box">
-            <p>
-              <b>Website </b>
-            </p>
-            <a href="#" target="_blank">
-              <img src={placeholder} class="portfolioImage"></img>
-            </a>
-          </div>
-          <div class="box">
-            <p>
-              <b>Website </b>
-            </p>
-            <a href="#" target="_blank">
-              <img src={placeholder} class="portfolioImage"></img>
-            </a>
-          </div>
+          
+          
         </div>
         <div class="achorTitle">
           <h1 id="Education">Education</h1>
@@ -133,7 +117,7 @@ function App() {
             <div class="Instituion">
               <p>University of Birmingham</p>
             </div>
-            <div>Currently Enrolled</div>
+            <div>2020-2021</div>
           </div>
           <div class="UniContainer">
             <div class="Degree">
