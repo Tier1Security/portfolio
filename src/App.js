@@ -1,6 +1,7 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/alt-text */
 import "./App.css";
 import placeholder from "./assets/placeholder.png";
-import prof from "./assets/prof.jpg";
 import HMB from "./assets/HMB.png";
 import close from "./assets/close.png";
 import LinkedIn from "./assets/LinkedIn.png";
@@ -29,8 +30,8 @@ function App() {
           <img src={close} class="closeIcon" onClick={hideMobileMenu}></img>
         </div>
         <div>
-          <a href="#Portfolio" onClick={hideMobileMenu}>
-            Portfolio
+          <a href="#Security Experience" onClick={hideMobileMenu}>
+          Security Experience
           </a>
         </div>
         <div>
@@ -55,7 +56,7 @@ function App() {
           </div>
           <div class="Links">
             <div>
-              <a href="#Portfolio">Portfolio</a>
+              <a href="#Security Experience">Security Experience</a>
             </div>
 
             <div>
@@ -74,12 +75,12 @@ function App() {
           <div class="BadgeIcons">
             {" "}
             <div>
-              <a href="https://www.github.com/raiden707" target="_blank">
+              <a href="https://github.com/Tier1Security" target="_blank" rel="noreferrer">
                 <img src={Github}></img>
               </a>
             </div>
             <div>
-              <a href="https://www.linkedin.com/in/ahmedbk" target="_blank">
+              <a href="https://www.linkedin.com/in/ahmedbk" target="_blank" rel="noreferrer">
                 <img src={LinkedIn}></img>
               </a>
             </div>
@@ -91,7 +92,7 @@ function App() {
           </div>
         </div>
         <div class="achorTitle">
-          <h1 id="Portfolio">Security Experience</h1>
+          <h1 id="Security Experience">Security Experience</h1>
         </div>
         <div class="previousWorkContainer">
           <div class="box">
